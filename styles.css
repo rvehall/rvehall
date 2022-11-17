@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+	background-color: rgb(30, 30, 30);
+	color: white;
+	text-align: center;
+}
+
+.content {
+	width: 500px;
+    height: 250px;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	display: table-cell;
+	padding: 3px 10px;
+	text-align: left;
+	width: 140px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.enter {
+	color: rgb(130, 206, 226)
+}
+
+.header {
+	background-color: rgb(40, 40, 40);
+	color: rgb(170, 170, 170);
+}
+
+.header > div {
+	border: 1px solid rgb(30, 30, 30);
+	padding: 5px;
+}
+
+.spacer {
+	height: 10px;
+}
+
+#command {
+	background-color: rgb(30, 30, 30);
+	color: rgb(170, 170, 170);
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	padding: 5px;
+	position: fixed;
+	border-color: rgb(30, 30, 30);
+}
+
+input:focus, textarea:focus, select:focus{
+	outline: none;
+}
+
+
+.tilde {
+	clear: both; float: left; display: block; position: relative;
+}

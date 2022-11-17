@@ -1,14 +1,13 @@
 let w = 0;
 let h = 0;
 let numLines = 0;
+
 const input = document.getElementById("command");
-let background = "<div class='tilde'>~</div>";
-
-
-
+const background = "<div class='tilde'>~</div>";
 
 getWindowSize();
 repeatTilde();
+
 onresize = (event) => {
     getWindowSize();
     repeatTilde();
@@ -28,9 +27,9 @@ function repeatTilde() {
     document.getElementById("background").innerHTML = result;
 }
 
-document.addEventListener("keydown", (event) => document.getElementById("command").focus())
+document.addEventListener("keydown", (event) => document.getElementById("command").focus());
+
 input.addEventListener("keypress", (event) => {
-    document.getElementById("command").focus();
     if (event.key === "Enter") {
         event.preventDefault();
         switch (event.target.value.toLowerCase()) {

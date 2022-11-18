@@ -41,6 +41,10 @@ input.addEventListener("keypress", (event) => {
             case ':code':
                 window.open('https://github.com/rvehall/', '_blank');
                 break;
+            case 'npm':
+            case ':npm':
+                window.open('https://www.npmjs.com/~rvehall', '_blank');
+                break;  
             default:
                 alert("Please enter a valid request")
         }

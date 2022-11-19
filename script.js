@@ -33,6 +33,10 @@ input.addEventListener("keypress", (event) => {
     if (event.key === "Enter") {
         event.preventDefault();
         switch (event.target.value.toLowerCase()) {
+            case 'help wwc':
+            case ':help wwc':
+                window.open('https://www.womenwhocode.com/', '_blank');
+                break;
             case 'linkedin':
             case ':linkedin':
                 window.open('https://www.linkedin.com/in/rvehall/', '_blank');

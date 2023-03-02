@@ -16,7 +16,7 @@ onresize = (event) => {
 function getWindowSize() {
     w = window.innerWidth;
     h = window.innerHeight;
-    document.getElementById("windowSize").innerText = `${w} x ${h}`;
+    // document.getElementById("windowSize").innerText = `${w} x ${h}`;
 }
 
 function repeatTilde() {
@@ -33,6 +33,8 @@ input.addEventListener("keypress", (event) => {
     if (event.key === "Enter") {
         event.preventDefault();
         switch (event.target.value.toLowerCase()) {
+            case 'help':
+            case ':help':
             case 'help wwc':
             case ':help wwc':
                 window.open('https://www.womenwhocode.com/', '_blank');

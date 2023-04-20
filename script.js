@@ -16,6 +16,7 @@ onresize = (event) => {
 function getWindowSize() {
     w = window.innerWidth;
     h = window.innerHeight;
+    document.getElementById("windowSize").innerText = `${w} x ${h}`;
 }
 
 function repeatTilde() {

@@ -51,8 +51,8 @@ input.addEventListener("keypress", (event) => {
             case ':npm':
                 window.open('https://www.npmjs.com/~rvehall', '_blank');
                 break;  
-            case 'personal':
-            case ':personal':
+            case 'mock':
+            case ':mock':
                 window.open('https://rvehall.github.io/pwr/', '_blank');
                 break;
             default:

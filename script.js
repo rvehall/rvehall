@@ -50,10 +50,6 @@ input.addEventListener("keypress", (event) => {
             case 'npm':
             case ':npm':
                 window.open('https://www.npmjs.com/~rvehall', '_blank');
-                break;  
-            case 'mock':
-            case ':mock':
-                window.open('https://rvehall.github.io/pwr/', '_blank');
                 break;
             default:
                 alert("Please enter a valid request")
